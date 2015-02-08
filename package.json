@@ -16,6 +16,9 @@
   "author": "Kevin Cameron",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.11.2"
+    "express": "^4.11.2",
+    "gulp": "^3.8.10",
+    "gulp-concat": "^2.4.3",
+    "gulp-nodemon": "^1.0.5"
   }
 }

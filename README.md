@@ -1,2 +1,5 @@
 # golek
-Skateboarding trick log
+
+## a skateboarding trick log
+
+Track tricks, skate spots.
