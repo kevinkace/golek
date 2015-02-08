@@ -1,0 +1,21 @@
+{
+  "name": "golek",
+  "version": "1.0.0",
+  "description": "Skateboard trick log.",
+  "main": "index.js",
+  "scripts": {
+    "test": "gulp nodeunit"
+  },
+  "keywords": [
+    "skateboarding",
+    "tricks",
+    "skateboard",
+    "log",
+    "journal"
+  ],
+  "author": "Kevin Cameron",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.11.2"
+  }
+}
