@@ -1,0 +1,54 @@
+{
+    "tricks" : [
+        {
+            "location" : "Dahl Park",
+            "manuver"  : [
+                {
+                    "stance"  : "regular",
+                    "feature" : "flat",
+                    "trick"   : "360 flip"
+                }, {
+                    "stance"  : "regular",
+                    "feature" : "manny pad",
+                    "trick"   : "nose manual"
+                }, {
+                    "stance"  : "nollie",
+                    "feature" : "bank",
+                    "trick"   : "ollie"
+                }
+            ]
+        }, {
+            "location" : "Dahl Park",
+            "manuver"  : [
+                {
+                    "stance"  : "regular",
+                    "feature" : "manny pad",
+                    "trick"   : "nose manual"
+                }, {
+                    "stance"  : "nollie",
+                    "feature" : "manny pad",
+                    "trick"   : "kickflip"
+                }, {
+                    "stance"  : "nollie",
+                    "feature" : "flat bar",
+                    "trick"   : "lipslide"
+                }
+            ]
+        }
+    ],
+    "locations" : [
+        {
+            "name"     : "Dahl Park",
+            "features" : [
+                {
+                    "type" : "rail", // flat bar, quarter, bank, hip, bump, ledge, gap, drop, stairs, hubba, pier block, 
+                    "specs" : {
+                        "height" : "16", // inches
+                        "length" : "6",  // feet
+                        "radius" : "4"   // inches
+                    }
+                }
+            ]
+        }
+    ]
+}
