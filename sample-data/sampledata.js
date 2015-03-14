@@ -32,4 +32,24 @@ var tricks = [{
             trick   : "lipslide"
         }
     ]
-}];
+}],
+
+locations = [{
+    name     : "Dahl Park",
+    notes    : "",
+    location : {
+        long : 47.684729
+        lat  : -122.299248
+    },
+    features : [{
+        name  : "rail",
+        type  : "rail",
+        specs : {
+            height : 12,
+            width  : 4,
+            length : 96,
+            coping : "round"
+            angle  : 0
+        }
+    }]
+}]
