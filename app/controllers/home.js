@@ -11,7 +11,7 @@ exports.trolls = [
         res.render("index", { content :
             render(
                 m("div.container", [
-                    m("h1", "log"),
+                    m("h2", "menu"),
                     m("ul", routes().map(function(r) {
                         return m("li", [
                             m("a[href=" + r + "]", r)
