@@ -1,0 +1,21 @@
+[{
+    "id" : 1,
+    "name" : "Dahl",
+    "location" : "12321,1231254",
+    "features" : [ 3, 4, 2, 523 ]
+},{
+    "id" : 2,
+    "name" : "Greenlake",
+    "location" : "12321,1231254",
+    "features" : [ 3, 4, 432, 523 ]
+},{
+    "id" : 3,
+    "name" : "Nothgate",
+    "location" : "12321,1231254",
+    "features" : [ 4, 1, 523 ]
+},{
+    "id" : 4,
+    "name" : "ATS",
+    "location" : "12321,1231254",
+    "features" : [ 3, 523 ]
+}]

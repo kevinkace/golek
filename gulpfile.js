@@ -2,16 +2,16 @@
 
 "use strict";
 
-var gulp = require("gulp"),
-    nodemon = require("gulp-nodemon"),
-    concat = require("gulp-concat"),
-    express = require("express"),
+var gulp       = require("gulp"),
+    nodemon    = require("gulp-nodemon"),
+    concat     = require("gulp-concat"),
+    express    = require("express"),
     serverport = 5000,
-
-    server = express();
+    server     = express();
 
 
 gulp.task("serve", function() {
+    server.use(express.static(__dirname + "/public"));
     server.listen(serverport);
 });
 
@@ -25,4 +25,4 @@ gulp.task("dev", function() {
 
 gulp.task("default", function() {
     gulp.run("dev");
-})
+});

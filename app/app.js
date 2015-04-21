@@ -4,15 +4,15 @@
 
 var express     = require("express"),
     app         = express(),
+    routes      = require("./routes"),
     server;
 
-
+app.set("view engine", "ejs");
+app.set("views", __dirname + "/views");
 app.get("/", require("./controllers/home").trolls);
-app.get("/spots", require("./controllers/spots").trolls);
-app.get("/tricks", require("./controllers/tricks").trolls);
-app.get("/lines", require("./controllers/lines").trolls);
-app.get("/add/spot", require("./controllers/add/spot").trolls);
-app.get("/add/trick", require("./controllers/add/trick").trolls);
+routes().forEach(function(route) {
+    app.get(route, require("./controllers" + route).trolls);
+});
 
 
 server = app.listen(3000, function() {
