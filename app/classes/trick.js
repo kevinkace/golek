@@ -60,10 +60,9 @@ function createTrick(args) {
     if(_.find(tricks, { name: args.name })) {
         _.assign(trick, _trick, _.find(tricks, { name: args.name }));
     } else {
-        console.log("no " + args.name);
+        trick = false;
     }
 
-    console.log("createTrick trick.js " + JSON.stringify(trick));
     return trick;
 }
 
